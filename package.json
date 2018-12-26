@@ -1,10 +1,9 @@
 {
-  "name": "mysite",
+  "name": "myportfolio",
   "version": "0.0.1",
-  "description": "Portfolio/blog website for myself, Sam H.",
+  "description": "portfolio for free code camp",
   "keywords": [
-    "blog",
-    "fcc",
+    "fcc.com",
     "portfolio"
   ],
   "main": "src/index.js",
