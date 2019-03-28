@@ -1,97 +1,77 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link
-      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-      rel="stylesheet"
-      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
-      crossorigin="anonymous"
-    />
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.1/css/bulma.min.css"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link href="src/styles.css" />
-    <title>Sam Hansen Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport">
+    <title>Sam Hansen's Portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.1/css/bulma.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
+    <script src="https://unpdg.com/styled-components/diststyled-components.min.js"></script>
   </head>
 
   <body>
-    <nav
-      class="navbar is-transparent"
-      role="navigation"
-      aria-label="main-navigation"
-    >
+  <!--First we have the Navigation bar at the top of the page-->
+  <!--<nav class="navbar is-transparent" role="navigation" aria-label="main-navigation">
       <div class="navbar-brand">
         <a class="navbar-item">
-          <i
-            class="fa fa-anchor"
-            aria-hidden="true"
-            style="color:cyan"
-            width="112"
-            height="28"
-          ></i>
+          <i class="fa fa-anchor" aria-hidden="true" style="color:cyan" width="112" height="28"></i>
         </a>
-        <a class="navbar-item" style="color:black"> Menu </a>
-        <button class="navbar-burger">
-          <span></span> <span></span> <span></span>
-        </button>
+        <a class="navbar-item" style="color:black">Menu</a>
       </div>
     </nav>
+  -->
+
+  <!--The Header or Title of the Page-->
     <section class="hero is-primary is-bold is-mobile">
       <div class="hero-body">
         <div class="container is-fluid">
-          <h1 class="title">Sam Hansen</h1>
+          <h1 class="title"><i class="fa fa-anchor" aria-hidden="true" style="padding:1px; color:cyan; font-size:24pt;"></i> Sam Hansen</h1>
           <p class="subtitle">
-            <a href="https://freecodecamp.com/sammihansen"
-              ><i class="fa fa-free-code-camp" style="color:green"></i
-            ></a>
-            Web-Design Portfolio
+          <a href="https://freecodecamp.com/sammihansen"><i class="fa fa-free-code-camp" style="color:white"></i></a>
+          <b><em>Web-Design Portfolio</em></b>
           </p>
         </div>
       </div>
     </section>
-    <br /><br /><br /><br />
+
+  <!--This is where I plan on putting the main content of the page but for now a few line breaks will have to do-->
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+  <!--My social media - sharing section-->
     <section class="hero is-medium is-primary is-bold">
       <div class="container is-fluid is-mobile">
         <div class="columns">
           <div class="column is-one-third"><span></span></div>
           <div class="column is-one-third">
-            <a href="http://facebook.com/sammihansen"
-              ><i class="fa fa-facebook" style="color:white"></i></a
-            ><a href="https://twitter.com/samuelmhansen"
-              ><i class="fa fa-twitter" style="color:white"></i></a
-            ><a href="https://github.com/sammihansen"
-              ><i class="fa fa-github" style="color:white"></i></a
-            ><a href="http://instagram.com/sammihansen"
-              ><i class="fa fa-instagram" style="color:white"></i
-            ></a>
+            <a href="http://facebook.com/sammihansen"><i class="fa fa-facebook" style="color:white"></i></a>
+            <a href="https://twitter.com/samuelmhansen"><i class="fa fa-twitter" style="color:white"></i></a>
+            <a href="https://github.com/sammihansen"><i class="fa fa-github" style="color:white"></i></a>
+            <a href="http://instagram.com/sammihansen"><i class="fa fa-instagram" style="color:white"></i></a>
           </div>
           <div class="column is-one-third"><span></span></div>
         </div>
       </div>
     </section>
+
+  <!--Last but of course not least the footer of the page-->
     <footer class="footer">
       <div class="container is-fluid">
         <div class="small has-text-centered">
           <p>
-            <i class="fa fa-code"></i> with
-            <a href="https://www.redcross.org/donate/donation"
-              ><i class="fa fa-heart" style="color:red"></i
-            ></a>
-            and
-            <a href="https://www.starbucks.com"
-              ><i class="fa fa-coffee" style="color:black"></i
-            ></a>
-            by Sam Hansen!
+            <i class="fa fa-code"></i>
+              <b><em>with</em></b>
+            <a href="https://www.redcross.org/donate/donation"><i class="fa fa-heart" style="color:red"></i></a>
+              <b><em>and</em></b>
+            <a href="https://www.starbucks.com"><i class="fa fa-coffee" style="color:black"></i></a>
+              <b><em>by Sam Hansen!</em></b>
           </p>
         </div>
       </div>
     </footer>
+
   </body>
+
 </html>
