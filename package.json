@@ -44,8 +44,8 @@
   "bugs": {
     "url": "https://github.com/sammihansen/fccportfolio/issues"
   },
-  "homepage": "https://github.com/sammihansen/fccportfolio#readme"
+  "homepage": "https://github.com/sammihansen/fccportfolio#readme",
   "author": "Sam Hansen <smhansen07@gmail.com>",
   "license": "UNLICENSED",
-  "private": false
+  "private": true
 }
