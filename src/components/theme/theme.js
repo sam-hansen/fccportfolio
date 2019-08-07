@@ -11,7 +11,15 @@ export default {
     green: '#00e676',
     blue: '#3d5afe',
     navy: '#000066',
-
+    brightblack: '#666',
+    brightwhite: '#fff',
+    brightpink: '#f688aa',
+    brightred: '#ff5555',
+    brightorange: '#ffa938',
+    brightyellow: '#ffff44',
+    brightgreen: '#00ff00',
+    brightblue: '#0088ff',
+    brightnavy: '#0000aa'
   }
 }
 
